@@ -20,3 +20,11 @@ def test_avg():
     assert avg(0, 0) == 0, "Média entre 0 e 0 deve ser 0"
     assert avg(2, 10) == 6, "Média entre 2 e 10 deve ser 6"
     assert avg(1, 19) == 10, "Média entre 1 e 19 deve ser 10"
+
+def test_max():
+    assert max(3, 9) == 6, "Máximo entre 3 e 9 deve ser 9"
+    assert max(0, 0) == 0, "Máximo entre 0 e 0 deve ser 0"
+    assert max(2, 10) == 6, "Máximo entre 2 e 10 deve ser 10"
+    assert max(1, 19) == 10, "Máximo entre 1 e 19 deve ser 19"
+
+
