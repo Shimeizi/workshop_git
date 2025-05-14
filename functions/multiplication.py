@@ -1,3 +1,3 @@
-def multiplication(a, b):
+def execute(a, b):
     return a * b
     
