@@ -23,6 +23,16 @@ def parse_input(input_str: str) -> str:
             func_name = "add"
         elif input_str == '3':
             func_name = "sub"
+        elif input_str == '4':
+            func_name = "multiplication"
+        elif input_str == '5':
+            func_name = "division"
+        elif input_str == '6':
+            func_name = "max"
+        elif input_str == '7':
+            func_name = "min"
+        elif input_str == '8':
+            func_name = "avg"
     
     else: func_name = input_str
     
